@@ -1,4 +1,4 @@
-# UniCollapseHierarchyAndProjectWindow
+# Kogane Collapse Hierarchy And Project Window
 
 Hierarchy と Project ビューの開いている階層をすべて閉じることができるエディタ拡張
 

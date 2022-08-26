@@ -1,5 +1,5 @@
 {
-    "name": "UniCollapseHierarchyAndProjectWindow",
+    "name": "Kogane.CollapseHierarchyAndProjectWindow",
     "references": [],
     "includePlatforms": [
         "Editor"

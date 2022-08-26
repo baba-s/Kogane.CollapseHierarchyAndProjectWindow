@@ -1,7 +1,7 @@
 {
-  "name": "com.baba-s.uni-collapse-hierarchy-and-project-window",
-  "displayName": "UniCollapseHierarchyAndProjectWindow",
-  "version": "1.0.0",
-  "unity": "2019.2",
-  "author": "baba-s"
+    "name": "com.baba-s.kogane-collapse-hierarchy-and-project-window",
+    "displayName": "Kogane Collapse Hierarchy And Project Window",
+    "version": "1.0.0",
+    "unity": "2022.1",
+    "author": "baba-s"
 }
