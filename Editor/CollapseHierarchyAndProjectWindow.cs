@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Reflection;
 using UnityEditor;
 using UnityEditorInternal;
@@ -79,7 +80,7 @@ namespace Kogane.Internal
             var treeState                         = assetTreeStateField.GetValue( projectBrowser );
             var expandedIDsField                  = treeState.GetType().GetProperty( "expandedIDs", BindingFlags.Instance | BindingFlags.Public );
 
-            InternalEditorUtility.expandedProjectWindowItems = new int[ 0 ];
+            InternalEditorUtility.expandedProjectWindowItems = Array.Empty<int>();
 
             expandedIDsField.SetValue( treeState, new List<int>(), null );
 
