@@ -68,7 +68,7 @@ namespace Kogane.Internal
         /// <summary>
         /// Project ビューの開いている階層をすべて閉じるメニュー
         /// </summary>
-        [MenuItem( "Assets/Kogane/Collapse All", false )]
+        [MenuItem( "Assets/Kogane/Collapse All", false, 1154415621 )]
         private static void CollapseProjectWindow()
         {
             var assemblyPath                      = InternalEditorUtility.GetEditorAssemblyPath();
