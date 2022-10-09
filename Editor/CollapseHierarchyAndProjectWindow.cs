@@ -15,7 +15,7 @@ namespace Kogane.Internal
         /// <summary>
         /// Hierarchy の開いている階層をすべて閉じるメニュー
         /// </summary>
-        [MenuItem( "GameObject/Kogane/Collapse All", false )]
+        [MenuItem( "GameObject/Kogane/Collapse All", false, 1154415629 )]
         private static void CollapseHierarchy()
         {
             const BindingFlags nonPublicStatic   = BindingFlags.NonPublic | BindingFlags.Static;
